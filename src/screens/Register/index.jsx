@@ -2,6 +2,7 @@ import { View, Text, Pressable } from "react-native";
 import React, { useState } from "react";
 import InputFeild from "../../components/InputFeild";
 import { apiInstance } from "../../apiInstance";
+import { useMutation } from "react-query";
 
 const RegisterScreen = () => {
   const [password, setPassword] = useState("");
